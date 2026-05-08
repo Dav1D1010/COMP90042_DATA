@@ -1,0 +1,25 @@
+[project]
+name = "comp90042-factchecker"
+version = "0.1.0"
+description = "COMP90042 Group Assignment — Automated Fact-Checking System for Climate Science Claims"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch>=2.4.0",
+    "sentencepiece>=0.2.0",
+    "transformers>=4.45.0",
+    "datasets>=2.20.0",
+    "sentence-transformers>=3.0.0",
+    "faiss-cpu>=1.8.0",
+    "peft>=0.12.0",
+    "accelerate>=0.34.0",
+    "tqdm>=4.66.0",
+    "numpy>=1.26.0",
+    "scikit-learn>=1.5.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.8.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = []
