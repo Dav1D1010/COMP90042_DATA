@@ -1,0 +1,22 @@
+[project]
+name = "climatron-optimal"
+version = "1.0.0"
+description = "Optimal Climatron Fact-Checker for Google Colab T4 (11-hour budget)"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4.0",
+    "sentencepiece>=0.2.0",
+    "transformers>=4.45.0",
+    "datasets>=2.20.0",
+    "sentence-transformers>=3.0.0",
+    "faiss-cpu>=1.8.0",
+    "tqdm>=4.66.0",
+    "numpy>=1.26.0",
+    "scikit-learn>=1.5.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+# Colab uses pip by default, uv provides faster installs
+dev-dependencies = []
